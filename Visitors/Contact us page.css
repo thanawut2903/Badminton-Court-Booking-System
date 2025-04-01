@@ -1,0 +1,249 @@
+body{
+  font-family: 'Prompt',sans-serif;
+}
+/* กำหนดสีพื้นหลังและสีข้อความของปุ่ม */
+.custom-btn {
+    color: #000000; /* สีข้อความ */
+    background-color: #79B7FF;
+  }
+  
+  .custom-btn:hover {
+    background-color: #9e9e9e; /* สีพื้นหลังเมื่อชี้เมาส์ */
+    color: #000000; /* สีข้อความ */
+  }
+  
+  /* สไตล์ปุ่มผู้ดูแลระบบ */
+  #admin-btn {
+    color: #ffffff; /* สีข้อความ */
+    background-color: #000000;
+  }
+  
+  #admin-btn:hover {
+    background-color: #9e9e9e; /* สีพื้นหลังเมื่อชี้เมาส์ */
+    color: #000000; /* เปลี่ยนสีข้อความ */
+  }
+  
+.custom-image{
+    width: 350px;
+    max-width: 1000px;
+    height: 1170px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.container{
+    margin-top: 0px;
+}
+
+.container h3{
+    border-radius: 20px;
+}
+
+.btnsub-custom{
+    background-color: #79B7FF; /* สีพื้นหลัง */
+    color: #000000; /* สีข้อความ */
+    border: none; /* เอาเส้นขอบออก */
+    margin-top: 20px;
+  }
+
+.btnsub-custom:hover{
+    background-color: #9e9e9e;
+    color: #000000;
+    border: none;
+}
+
+.mb-31 p{
+    margin-top: 15px;
+}
+
+form{
+    width: 400px;
+    height: 440px;
+    border-radius: 20px;
+}
+
+.custom-image1 {
+    width: 400px;
+    height: 550px;
+    display: block; /* ทำให้ภาพแสดงในบล็อก */
+    margin: auto; /* จัดให้อยู่กลาง */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+}
+
+form .mb-31{
+    margin-top: 40px;
+}
+
+.custom-box1 {
+
+    background-color: #79B7FF;
+    border-radius: 20px;
+    padding-left: 32px;
+    padding-top: 5px;
+    width: 180px;
+    height: 35px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+}
+
+.custom-box1 h3{
+    font-size: 20px;
+    justify-content: left; /* จัดข้อความให้อยู่ตรงกลางแนวนอน */
+    align-items: left; /* จัดข้อความให้อยู่ตรงกลางแนวตั้ง */
+    text-align: left; /* จัดข้อความให้ตรงกลางในกรณีเป็นหลายบรรทัด */
+    color: #000;
+}
+
+.custom-box11{
+    margin-top: 30px;
+    background-color: #79B7FF;
+    border-radius: 20px;
+    height: 60px;
+    padding-top: 0.1px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+}
+
+.custom-box11 p{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.custom-boxfb{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 1px;
+    text-align: left; /* จัดข้อความไปทางซ้าย */
+    margin-top: 20px;
+}
+
+.custom-textfb {
+    font-size: 16px; /* ขนาดข้อความ */
+    color: #000000; /* สีข้อความ */
+    background-color: #79B7FF; /* สีพื้นหลัง */
+    padding: 7px; /* ระยะห่างในกล่อง */
+    border-radius: 20px; /* มุมโค้ง */
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+    margin-top: 20px;
+    margin-left: -10px;
+  }
+
+.custom-boxline{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 15px;
+    text-align: left; /* จัดข้อความไปทางซ้าย */
+    margin-top: 10px;
+}
+
+
+.custom-icon2{
+    width: 50px;
+    height: 50px;
+}
+
+.custom-icon3{
+  width: 50px;
+  height: 50px;
+}
+
+.custom-textline {
+    font-size: 20px; /* ขนาดข้อความ */
+    color: #000000; /* สีข้อความ */
+    background-color: #79B7FF; /* สีพื้นหลัง */
+    padding: 7px; /* ระยะห่างในกล่อง */
+    border-radius: 20px; /* มุมโค้ง */
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+  }
+
+.custom-boxtel{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 15px;
+    text-align: left; /* จัดข้อความไปทางซ้าย */
+    margin-top: 20px;
+}
+
+.custom-icon3{
+    width: 50px;
+    height: 50px;
+}
+
+.custom-texttel {
+    font-size: 20px; /* ขนาดข้อความ */
+    color: #000000; /* สีข้อความ */
+    background-color: #79B7FF; /* สีพื้นหลัง */
+    padding: 7px; /* ระยะห่างในกล่อง */
+    border-radius: 20px; /* มุมโค้ง */
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+  }
+
+  .custom-boxprevious{
+    display: flex;
+    justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+    align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+    margin-top: -150px;
+  }
+
+  .btn-previous {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff; /* สีข้อความ */
+    background-color: #000000; /* สีพื้นหลัง */
+    border: none;
+    border-radius: 20px;
+    text-decoration: none; /* ลบขีดเส้นใต้ */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+    width: 120px;
+    height: 45px;
+    
+  }
+
+  /* เอฟเฟกต์เมื่อชี้เมาส์ */
+.btn-previous:hover {
+    background-color: #ffffff; /* สีพื้นหลังเมื่อชี้เมาส์ */
+    color: #000000;
+  }
+
+.map-container{
+  display: flex;
+  margin: 20px 0; /* ระยะห่างรอบๆ */
+}
+
+.map-container iframe{
+  margin-left: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+}
+
+
+.icon-link {
+  display: inline-flex; /* จัดให้อยู่ในแถวเดียวกัน */
+  align-items: center; /* จัดกลาง */
+  text-decoration: none; /* ลบเส้นใต้ลิงก์ */
+}
+
+.custom-icon1 {
+  width: 80px; /* ขนาดรูป */
+  height: 80px; 
+  object-fit: cover; /* ปรับให้รูปพอดี */
+  margin-right: 10px; /* ระยะห่างจากข้อความ */
+}
+
+

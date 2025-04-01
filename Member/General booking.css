@@ -1,0 +1,192 @@
+body {
+  font-family: 'Prompt', sans-serif;
+}
+  /* กำหนดสีพื้นหลังและการตกแต่งให้กับกล่องข้อความ */
+  .custom-box {
+    background-color: #79B7FF; /* สีพื้นหลัง */
+    color: #000;
+    padding: 0px; /* เพิ่มระยะห่างภายในกล่อง */
+    border-radius: 100px; /* มุมโค้ง */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    width: 100%; /* กำหนดความกว้าง */
+    max-width: 600px; /* ความกว้างสูงสุด */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px; /* กำหนดความสูงที่ต้องการ */
+    margin-left: 250px;
+  }
+.logout{
+  background-color: #79B7FF;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+}
+.logout:hover{
+    background-color: #636363;
+}
+#logouticon{
+  padding-top: 7px;
+  padding-left: 10px;
+}
+.containerbooking{
+  margin-left: 700px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+/* ตาราง */
+.booking-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto; /* ใช้ auto เพื่อจัดให้อยู่ตรงกลาง */
+  font-size: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  .booking-table th, .booking-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  .booking-table th {
+    background-color: #333;
+    color: white;
+    font-size: 13px;
+  }
+  .booking-table td.available {
+    background-color: #4caf50; /* สีเขียว */
+    color: white;
+    cursor: default;
+    transition: background-color 0.3s;
+  }
+  
+  .booking-table td.booked {
+    background-color: #f44336; /* สีแดง */
+    color: white;
+    cursor: default;
+  }
+  .containertable {
+    margin-left: 340px;
+    width: 1450px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+    
+  }
+  .containertable h2{
+    font-size: 30px;
+  }
+/* จบของตาราง   */
+
+  .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+  }
+  
+  .form-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #79B7FF;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  
+  /* ปุ่มวันที่ และ ลูกศร */
+  
+  .date-picker-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .date-picker-container .btn {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+  }
+  
+  #currentDate {
+    cursor: pointer;
+    color: #000;
+  }
+  
+  .date-picker-container #currentDate{
+    background-color: #9e9e9e;
+    width: 500px;
+    border: #000;
+  }
+  
+  .date-picker-container #prevDay{
+    background-color: #9e9e9e;
+    border: #000;
+  }
+  
+  .date-picker-container #prevDay:hover{
+    background-color: #000000;
+    border: #000;
+  }
+  
+  .date-picker-container #nextDay{
+    background-color: #9e9e9e;
+    border: #000;
+  }
+  
+  .date-picker-container #nextDay:hover{
+    background-color: #000000;
+    border: #000;
+  }
+  #submit-button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #79B7FF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #submit-button:hover {
+    background-color: #ffffff;
+    color: #000;
+  }
+.selected {
+    border: 2px solid #007bff !important;
+}
+.logout{
+  background-color: #79B7FF;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+}
+.logout:hover{
+    background-color: #636363;
+}
+
+#logouticon{
+  padding-top: 7px;
+  padding-left: 10px;
+}
+  

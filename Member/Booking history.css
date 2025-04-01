@@ -1,0 +1,92 @@
+body {
+  font-family: 'Prompt', sans-serif;
+}
+/* ตารางประวัติการจองสนามแบบทั่วไป */
+.container1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+  /* กำหนดสีพื้นหลังและการตกแต่งให้กับกล่องข้อความ */
+  .custom-box {
+    background-color: #79B7FF; /* สีพื้นหลัง */
+    padding: 0px; /* เพิ่มระยะห่างภายในกล่อง */
+    border-radius: 100px; /* มุมโค้ง */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    width: 100%; /* กำหนดความกว้าง */
+    max-width: 600px; /* ความกว้างสูงสุด */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 50px; /* กำหนดความสูงที่ต้องการ */
+    color: #000000;
+    margin-left: 250px;
+  }
+
+.booking-table {
+  margin-left: 280px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 1350px;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-table th, .booking-table td {
+  border: 1px solid #dddddd;
+  padding: 12px;
+  text-align: center; /* จัดข้อความให้อยู่ตรงกลางแนวนอน */
+}
+
+.booking-table th {
+  background-color: #79B7FF;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.booking-table td {
+  vertical-align: middle; /* จัดข้อความให้อยู่ตรงกลางแนวตั้ง */
+}
+
+.btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-danger {
+  background-color: red;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.logout{
+  background-color: #79B7FF;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.logout:hover{
+    background-color: #636363;
+}
+
+#logouticon{
+  padding-top: 7px;
+  padding-left: 10px;
+}
+  
+
+
+

@@ -1,0 +1,188 @@
+body {
+    font-family: 'Prompt', sans-serif;
+  }
+    /* กำหนดสีพื้นหลังและการตกแต่งให้กับกล่องข้อความ */
+    .custom-box {
+      background-color: #79B7FF; /* สีพื้นหลัง */
+      padding: 0px; /* เพิ่มระยะห่างภายในกล่อง */
+      border-radius: 100px; /* มุมโค้ง */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+      width: 100%; /* กำหนดความกว้าง */
+      max-width: 600px; /* ความกว้างสูงสุด */
+      margin-top: 50px;
+      margin-bottom: 30px;
+      height: 50px; /* กำหนดความสูงที่ต้องการ */
+      color: #000000;
+    }
+  .logout{
+    background-color: #79B7FF;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+  }
+  .logout:hover{
+      background-color: #636363;
+  }
+  
+  #logouticon{
+    padding-top: 7px;
+    padding-left: 10px;
+  }
+    
+  .custom-box1 {
+    background-color: #79B7FF; /* สีพื้นหลัง */
+    padding: 16px; /* เพิ่มระยะห่างภายในกล่อง */
+    border-radius: 100px; /* มุมโค้ง */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    width: 100%; /* กำหนดความกว้าง */
+    max-width: 600px; /* ความกว้างสูงสุด */
+    height: 60px; /* กำหนดความสูงที่ต้องการ */
+    display: flex; /* ใช้ Flexbox */
+    align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+    justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+    margin-left: auto; /* จัดกล่องให้อยู่ตรงกลางแนวนอน */
+    margin-right: auto; /* จัดกล่องให้อยู่ตรงกลางแนวนอน */
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+    margin-top: 30px;
+  }
+  .custom-box12 {
+    background-color: #79B7FF; /* สีพื้นหลัง */
+    padding: 16px; /* เพิ่มระยะห่างภายในกล่อง */
+    border-radius: 100px; /* มุมโค้ง */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    width: 100%; /* กำหนดความกว้าง */
+    max-width: 600px; /* ความกว้างสูงสุด */
+    height: 80px; /* กำหนดความสูงที่ต้องการ */
+    display: flex; /* ใช้ Flexbox */
+    align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+    justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+    margin-left: auto; /* จัดกล่องให้อยู่ตรงกลางแนวนอน */
+    margin-right: auto; /* จัดกล่องให้อยู่ตรงกลางแนวนอน */
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+    margin-top: 30px;
+  }
+  .custom-box12 h4{
+    margin-top: 15px;
+    font-size: 20px;
+    justify-content: center; /* จัดข้อความให้อยู่ตรงกลางแนวนอน */
+    align-items: center; /* จัดข้อความให้อยู่ตรงกลางแนวตั้ง */
+    text-align: center; /* จัดข้อความให้ตรงกลางในกรณีเป็นหลายบรรทัด */
+    color: #000000;
+  }
+    
+    .custom-box1 h3{
+      font-size: 20px;
+      justify-content: center; /* จัดข้อความให้อยู่ตรงกลางแนวนอน */
+      align-items: center; /* จัดข้อความให้อยู่ตรงกลางแนวตั้ง */
+      text-align: center; /* จัดข้อความให้ตรงกลางในกรณีเป็นหลายบรรทัด */
+      color: #000000;
+      margin-top: 5px;
+    }
+    .custom-box1 h4{
+      margin-top: 15px;
+      font-size: 20px;
+      justify-content: center; /* จัดข้อความให้อยู่ตรงกลางแนวนอน */
+      align-items: center; /* จัดข้อความให้อยู่ตรงกลางแนวตั้ง */
+      text-align: center; /* จัดข้อความให้ตรงกลางในกรณีเป็นหลายบรรทัด */
+      color: #000000;
+    }
+    
+  .container{
+      margin-bottom: 20px;
+      background-color: #e6e6e6;
+      border-radius: 10px;
+      width: 800px;
+      height: 600px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+      margin-left: 620px;
+  }
+  
+  .container12{
+    background-color: #bdbdbd;
+    border-radius: 20px;
+    height: 200px;
+    width: 600px;
+    justify-content: left;
+    text-align: left;
+    margin-left: 90px;
+  }
+    
+  .custom-box2 h3{
+      font-size: 20px;
+      color: #000000;
+      background-color: #79B7FF;
+      border-radius: 20px;
+      width: 100px;
+      height: 50px;
+      padding-top: 10px;
+  }
+  
+  .custom-box2 {
+      padding: 10px;  /* เพิ่มระยะห่างภายในกล่อง */
+      border-radius: 15px;  /* ทำให้มุมโค้ง */
+      display: inline-block;  /* ให้กล่องชิดขอบกับข้อความ */
+      text-align: left; /* จัดข้อความให้อยู่ชิดซ้าย */
+    }
+  
+  .text1 h3{
+      font-size: 20px;
+      margin-left: 50px;
+      margin-bottom: 10px;
+      color: #000000;
+  }
+  
+  #imgline{
+      margin-top: -10px;
+      margin-left: 10px;
+      padding-bottom: 5px;
+      width: 50px;
+      height: 50px;
+  }
+    .custom-box11 h3{
+      font-size: 20px;
+      justify-content: center; /* จัดข้อความให้อยู่ตรงกลางแนวนอน */
+      align-items: center; /* จัดข้อความให้อยู่ตรงกลางแนวตั้ง */
+      text-align: center; /* จัดข้อความให้ตรงกลางในกรณีเป็นหลายบรรทัด */
+      color: #000000;
+    }
+  
+    .custom-box11 a{
+      text-decoration: none; /* ลบขีดเส้นใต้ */
+    }
+  .custom-boxprevious{
+    display: flex;
+    justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+    align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+    margin-top: 25px;
+  
+  
+  }
+  .btn-previous {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff; /* สีข้อความ */
+    background-color: #000000; /* สีพื้นหลัง */
+    border: none;
+    border-radius: 20px;
+    text-decoration: none; /* ลบขีดเส้นใต้ */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+    width: 120px;
+    height: 45px;
+  }
+  .btn-previous:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000000; /* สีข้อความ */
+    background-color: #ffffff; /* สีพื้นหลัง */
+    border: none;
+    border-radius: 20px;
+    text-decoration: none; /* ลบขีดเส้นใต้ */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+    width: 120px;
+    height: 45px;
+  }
+  

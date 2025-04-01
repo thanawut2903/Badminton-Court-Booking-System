@@ -1,0 +1,212 @@
+body{
+  font-family: 'Prompt',sans-serif;
+}
+
+.custom-boxprevious{
+  display: flex;
+  justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+  align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+  margin-top: -20px;
+  margin-bottom: 10px;
+
+}
+.btn-previous {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff; /* สีข้อความ */
+  background-color: #000000; /* สีพื้นหลัง */
+  border: none;
+  border-radius: 20px;
+  text-decoration: none; /* ลบขีดเส้นใต้ */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+  width: 120px;
+  height: 45px;
+}
+.btn-previous:hover {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #000000; /* สีข้อความ */
+  background-color: #ffffff; /* สีพื้นหลัง */
+  border: none;
+  border-radius: 20px;
+  text-decoration: none; /* ลบขีดเส้นใต้ */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+  width: 120px;
+  height: 45px;
+}
+
+
+.custom-save{
+  display: flex;
+  justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+  align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+
+}
+.btn-save {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff; /* สีข้อความ */
+  background-color: #006917; /* สีพื้นหลัง */
+  border: none;
+  border-radius: 20px;
+  text-decoration: none; /* ลบขีดเส้นใต้ */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+  width: 120px;
+  height: 45px;
+}
+.btn-save:hover {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #000000; /* สีข้อความ */
+  background-color: #ffffff; /* สีพื้นหลัง */
+  border: none;
+  border-radius: 20px;
+  text-decoration: none; /* ลบขีดเส้นใต้ */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+  width: 120px;
+  height: 45px;
+}
+.file-upload-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px; /* เว้นระยะห่างระหว่างปุ่มและข้อความ */
+  margin-top: -30px;
+}
+.custom-file-submit {
+  background-color: #006917;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 0px;
+}
+.custom-file-submit:hover{
+  background-color: #000;
+}
+
+/* input ข้อความ */
+
+.input-wrapper {
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+
+.input-wrapper1 {
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+
+.input-wrapper1 input{
+  background-color: #9c9c9c;
+}
+
+
+input {
+  border: 1px solid gray;
+  border-radius: 6px;
+  position: relative;
+  width: 200px;
+  margin: 10px;
+  line-height: 6ex;
+}
+
+label {
+  position: absolute;
+  top: 0.2ex;
+  z-index: 1;
+  left: 2em;
+  background-color: white;
+  padding: 0 5px;
+}
+
+.custom-boxedit h3{
+  font-size: 24px;
+}
+
+.custom-boxfile {
+  display: flex;
+  align-items: center;
+  gap: 0px; /* เว้นระยะห่างระหว่างองค์ประกอบ */   
+}
+
+.custom-boxfile h3{
+  color: #000000;
+  background-color: #79B7FF;
+  border-radius: 10px; 
+  width: 200px;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 3px;
+  height: 40px;
+  margin: auto;
+}
+
+.container1 {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.custom-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.input-wrapper, .input-wrapper1 {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  margin-right: 15px;
+}
+label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+input[type="text"], input[type="password"], input[type="file"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 14px;
+}
+
+.editimage {
+  margin-bottom: 20px;
+}
+
+.logout{
+  background-color: #79B7FF;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.logout:hover{
+    background-color: #636363;
+}
+
+#logouticon{
+  padding-top: 7px;
+  padding-left: 10px;
+}

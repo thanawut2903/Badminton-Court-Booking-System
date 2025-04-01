@@ -1,0 +1,79 @@
+body{
+  font-family: 'Prompt',sans-serif;
+}
+  /* กำหนดสีพื้นหลังและการตกแต่งให้กับกล่องข้อความ */
+  .custom-box {
+    background-color: #79B7FF; /* สีพื้นหลัง */
+    padding: 0px; /* เพิ่มระยะห่างภายในกล่อง */
+    border-radius: 100px; /* มุมโค้ง */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    width: 100%; /* กำหนดความกว้าง */
+    max-width: 600px; /* ความกว้างสูงสุด */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 50px; /* กำหนดความสูงที่ต้องการ */
+    color: #000000;
+    margin-left: 180px;
+  }
+
+  .container {
+    flex-grow: 1; /* ให้เนื้อหาหลักขยาย */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* จัดให้อยู่ด้านบน */
+    align-items: center;
+    padding: 20px; /* ลด Padding ถ้าจำเป็น */
+}
+
+.logout{
+  background-color: #79B7FF;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.logout:hover{
+    background-color: #636363;
+}
+
+#logouticon{
+  padding-top: 7px;
+  padding-left: 10px;
+}
+  
+  .filter-container {
+    background-color: #D9EFFF;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 180px;
+}
+
+.chart-container {
+    margin-top: 20px;
+    width: 90%;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 180px;
+}
+
+
+.filter-container label {
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.filter-container input, select, button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

@@ -1,0 +1,122 @@
+body{
+  font-family: 'Prompt',sans-serif;
+}
+  /* กำหนดสีพื้นหลังและการตกแต่งให้กับกล่องข้อความ */
+  .custom-box {
+    color: #000000;
+    background-color: #79B7FF; /* สีพื้นหลัง */
+    padding: 0px; /* เพิ่มระยะห่างภายในกล่อง */
+    border-radius: 100px; /* มุมโค้ง */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    width: 100%; /* กำหนดความกว้าง */
+    max-width: 600px; /* ความกว้างสูงสุด */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px; /* กำหนดความสูงที่ต้องการ */
+    margin-left: 250px;
+  }
+
+  .custom-box1{
+    color: #000000;
+    background-color: #79B7FF; /* สีพื้นหลัง */
+    padding: 0px; /* เพิ่มระยะห่างภายในกล่อง */
+    border-radius: 100px; /* มุมโค้ง */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    width: 100%; /* กำหนดความกว้าง */
+    max-width: 250px; /* ความกว้างสูงสุด */
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 31px; /* กำหนดความสูงที่ต้องการ */
+  }
+  
+  .custom-box1 h3{
+    color: #000000;
+    font-size: 20px;
+    justify-content: center; /* จัดข้อความให้อยู่ตรงกลางแนวนอน */
+    align-items: center; /* จัดข้อความให้อยู่ตรงกลางแนวตั้ง */
+    text-align: center; /* จัดข้อความให้ตรงกลางในกรณีเป็นหลายบรรทัด */
+  }
+  
+  .custom-box11 {
+    padding: 10px; /* ปรับระยะห่างภายในกล่องให้เหมาะสม */
+    margin-top: 20px; /* ปรับระยะห่างด้านบนกล่อง */
+    background-color: #ffffff; /* สามารถเปลี่ยนสีพื้นหลังได้ตามต้องการ */
+    border-radius: 10px; /* มุมโค้งของกล่อง */
+    width: 1000px; /* กำหนดความกว้างอัตโนมัติตามเนื้อหา */
+    display: inline-block; /* ปรับให้กล่องพอดีกับเนื้อหาภายใน */
+    margin-left: 20px;
+}
+
+.custom-box2 {
+    padding: 10px; /* ปรับระยะห่างภายในกล่องให้เหมาะสม */
+    margin-top: 20px; /* ปรับระยะห่างด้านบนกล่อง */
+    background-color: #c7c7c7; /* สามารถเปลี่ยนสีพื้นหลังได้ตามต้องการ */
+    border-radius: 10px; /* มุมโค้งของกล่อง */
+    width: 1100px; /* กำหนดความกว้างอัตโนมัติตามเนื้อหา */
+    display: inline-block; /* ปรับให้กล่องพอดีกับเนื้อหาภายใน */
+    margin-left: 200px;
+}
+
+
+  .custom-box11 p{
+    line-height: 0.2px;
+  }
+
+
+  .custom-box11 .custom-text1 p{
+    line-height: 10px;
+  }
+    
+
+
+.logout{
+  background-color: #79B7FF;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.logout:hover{
+    background-color: #636363;
+}
+
+#logouticon{
+  padding-top: 7px;
+  padding-left: 10px;
+}
+
+  .custom-save{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+  
+  }
+  .btn-save {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff; /* สีข้อความ */
+    background-color: #006917; /* สีพื้นหลัง */
+    border: none;
+    border-radius: 20px;
+    text-decoration: none; /* ลบขีดเส้นใต้ */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+    width: 120px;
+    height: 45px;
+  }
+  .btn-save:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000000; /* สีข้อความ */
+    background-color: #ffffff; /* สีพื้นหลัง */
+    border: none;
+    border-radius: 20px;
+    text-decoration: none; /* ลบขีดเส้นใต้ */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+    width: 120px;
+    height: 45px;
+  }

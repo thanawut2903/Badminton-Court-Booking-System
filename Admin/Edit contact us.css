@@ -1,0 +1,190 @@
+body{
+  font-family: 'Prompt',sans-serif;
+}
+/* กำหนดสีพื้นหลังและการตกแต่งให้กับกล่องข้อความ */
+.custom-box {
+  color: #000000;
+  background-color: #79B7FF; /* สีพื้นหลัง */
+  padding: 0px; /* เพิ่มระยะห่างภายในกล่อง */
+  border-radius: 100px; /* มุมโค้ง */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+  width: 100%; /* กำหนดความกว้าง */
+  max-width: 600px; /* ความกว้างสูงสุด */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 50px; /* กำหนดความสูงที่ต้องการ */
+  margin-left: 180px;
+}
+.custom-box2 {
+  padding: 10px; /* ปรับระยะห่างภายในกล่องให้เหมาะสม */
+  margin-top: 20px; /* ปรับระยะห่างด้านบนกล่อง */
+  background-color: #c7c7c7; /* สามารถเปลี่ยนสีพื้นหลังได้ตามต้องการ */
+  border-radius: 10px; /* มุมโค้งของกล่อง */
+  width: 700px; /* กำหนดความกว้าง */
+  display: flex; /* ใช้ Flexbox */
+  flex-direction: column; /* จัดให้อยู่ในแนวตั้ง (กรณีมีเนื้อหาในกล่อง) */
+  margin: 20px auto; /* ตั้งให้มีระยะห่างด้านบนและล่าง และให้อยู่ตรงกลางแนวนอน */
+  justify-content: center; /* จัดเนื้อหาในกล่องให้อยู่ตรงกลางแนวตั้ง */
+  margin-left: 380px;
+}
+.username{
+color: #000000;
+}
+.logout{
+background-color: #79B7FF;
+border-radius: 10px;
+height: 40px;
+width: 40px;
+}
+
+.logout:hover{
+  background-color: #636363;
+}
+
+#logouticon{
+padding-top: 7px;
+padding-left: 10px;
+}
+
+.custom-boxprevious{
+display: flex;
+justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+margin-top: 0px;
+}
+
+.btn-previous {
+display: inline-block;
+padding: 10px 20px;
+font-size: 16px;
+color: #ffffff; /* สีข้อความ */
+background-color: #000000; /* สีพื้นหลัง */
+border: none;
+border-radius: 20px;
+text-decoration: none; /* ลบขีดเส้นใต้ */
+text-align: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+width: 120px;
+height: 45px;
+}
+.btn-previous:hover {
+display: inline-block;
+padding: 10px 20px;
+font-size: 16px;
+color: #000000; /* สีข้อความ */
+background-color: #ffffff; /* สีพื้นหลัง */
+border: none;
+border-radius: 20px;
+text-decoration: none; /* ลบขีดเส้นใต้ */
+text-align: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+width: 120px;
+height: 45px;
+}
+
+
+.custom-boxprevious{
+  display: flex;
+  justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+  align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+.btn-previous {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff; /* สีข้อความ */
+  background-color: #000000; /* สีพื้นหลัง */
+  border: none;
+  border-radius: 20px;
+  text-decoration: none; /* ลบขีดเส้นใต้ */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+  width: 120px;
+  height: 45px;
+}
+.btn-previous:hover {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #000000; /* สีข้อความ */
+  background-color: #ffffff; /* สีพื้นหลัง */
+  border: none;
+  border-radius: 20px;
+  text-decoration: none; /* ลบขีดเส้นใต้ */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+  width: 120px;
+  height: 45px;
+}
+
+
+.custom-save{
+  display: flex;
+  justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+  align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+
+}
+.btn-save {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff; /* สีข้อความ */
+  background-color: #006917; /* สีพื้นหลัง */
+  border: none;
+  border-radius: 20px;
+  text-decoration: none; /* ลบขีดเส้นใต้ */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+  width: 120px;
+  height: 45px;
+  margin-left: 10px;
+}
+.btn-save:hover {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #000000; /* สีข้อความ */
+  background-color: #ffffff; /* สีพื้นหลัง */
+  border: none;
+  border-radius: 20px;
+  text-decoration: none; /* ลบขีดเส้นใต้ */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+  width: 120px;
+  height: 45px;
+}
+.file-upload-container {
+  display: flex;
+  align-items: center;
+  gap: 0px; /* เว้นระยะห่างระหว่างปุ่มและข้อความ */
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.file-upload-container p{
+  margin-top: 20px;
+  margin-right: 10px;
+  color: #000;
+  background-color: #79B7FF;
+  border-radius: 10px;
+  height: 30px;
+  padding-top: 2px;
+}
+.custom-file-submit {
+  background-color: #006917;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 0px;
+}
+.custom-file-submit:hover{
+  background-color: #000;
+}

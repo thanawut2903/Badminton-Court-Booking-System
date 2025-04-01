@@ -1,0 +1,219 @@
+body{
+  font-family: 'Prompt',sans-serif;
+}
+  /* กำหนดสีพื้นหลังและการตกแต่งให้กับกล่องข้อความ */
+  .custom-box {
+    color: #000000;
+    background-color: #79B7FF; /* สีพื้นหลัง */
+    padding: 0px; /* เrgb(0, 40, 85)ะห่างภายในกล่อง */
+    border-radius: 100px; /* มุมโค้ง */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    width: 100%; /* กำหนดความกว้าง */
+    max-width: 600px; /* ความกว้างสูงสุด */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px; /* กำหนดความสูงที่ต้องการ */
+    margin-left: 250px;
+  }
+  .custom-box1{
+    color: #000000;
+    background-color: #79B7FF; /* สีพื้นหลัง */
+    padding: 0px; /* เพิ่มระยะห่างภายในกล่อง */
+    border-radius: 100px; /* มุมโค้ง */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    width: 100%; /* กำหนดความกว้าง */
+    max-width: 250px; /* ความกว้างสูงสุด */
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 31px; /* กำหนดความสูงที่ต้องการ */
+  }
+  
+  .custom-box1 h3{
+    color: #000000;
+    font-size: 20px;
+    justify-content: center; /* จัดข้อความให้อยู่ตรงกลางแนวนอน */
+    align-items: center; /* จัดข้อความให้อยู่ตรงกลางแนวตั้ง */
+    text-align: center; /* จัดข้อความให้ตรงกลางในกรณีเป็นหลายบรรทัด */
+  }
+  
+  .custom-box11 {
+    padding: 10px; /* ปรับระยะห่างภายในกล่องให้เหมาะสม */
+    margin-top: 20px; /* ปรับระยะห่างด้านบนกล่อง */
+    background-color: #ffffff; /* สามารถเปลี่ยนสีพื้นหลังได้ตามต้องการ */
+    border-radius: 10px; /* มุมโค้งของกล่อง */
+    width: 1000px; /* กำหนดความกว้างอัตโนมัติตามเนื้อหา */
+    display: inline-block; /* ปรับให้กล่องพอดีกับเนื้อหาภายใน */
+    margin-left: 20px;
+}
+
+.custom-box2 {
+    padding: 10px; /* ปรับระยะห่างภายในกล่องให้เหมาะสม */
+    margin-top: 20px; /* ปรับระยะห่างด้านบนกล่อง */
+    background-color: #c7c7c7; /* สามารถเปลี่ยนสีพื้นหลังได้ตามต้องการ */
+    border-radius: 10px; /* มุมโค้งของกล่อง */
+    width: 1200px; /* กำหนดความกว้างอัตโนมัติตามเนื้อหา */
+    display: inline-block; /* ปรับให้กล่องพอดีกับเนื้อหาภายใน */
+    margin-left: 20px;
+    margin-left: 150px;
+}
+
+.logout{
+  background-color: #79B7FF;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.logout:hover{
+    background-color: #636363;
+}
+
+#logouticon{
+  padding-top: 7px;
+  padding-left: 10px;
+}
+
+  .custom-boxfile {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* เว้นระยะห่างระหว่างองค์ประกอบ */   
+  }
+
+  .custom-boxfile h3{
+    color: #000000;
+    background-color: #79B7FF;
+    border-radius: 10px; 
+    width: 200px;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 3px;
+    height: 40px;
+  }
+
+
+  .file-upload-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* เว้นระยะห่างระหว่างปุ่มและข้อความ */
+  }
+
+  
+  #ImagePath {
+    font-size: 14px;
+    color: #000000;
+
+  }
+  
+  /* รายการรูปภาพ */
+ /* Container หลัก */
+.table-container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 900px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #000000;
+}
+
+/* ตาราง */
+.image-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.image-table th,
+.image-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.image-table th {
+  background-color: #79b7ff;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.image-table td img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-table td {
+  vertical-align: middle;
+}
+
+/* ปุ่ม */
+button {
+  padding: 10px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.edit-button {
+  background-color: #79b7ff;
+  color: rgb(255, 255, 255);
+}
+
+.edit-button:hover {
+  
+  background-color: #000000;
+  color: white;
+}
+
+.delete-button {
+  background-color: #ff2e2e;
+  color: rgb(255, 255, 255);
+}
+
+.delete-button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+
+.image-table td img {
+  width: 300px; /* กำหนดความกว้าง */
+  height: 150px; /* กำหนดความสูง */
+  object-fit: cover; /* ทำให้รูปภาพเต็มขนาดและรักษาสัดส่วน */
+  border-radius: 5px; /* มุมโค้งของรูปภาพ */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เงาของรูปภาพ */
+}
+
+.content-container{
+  text-align: center;
+  justify-content: right;
+  display: flex;
+}
+.file-label {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border: 2px dashed #001020;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  transition: all 0.3s ease-in-out;
+}
+
+.file-label:hover {
+  background-color: #f8f9fa;
+  border-color: #0056b3;
+}
+

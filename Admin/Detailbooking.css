@@ -1,0 +1,258 @@
+body{
+  font-family: 'Prompt',sans-serif;
+}
+  .container {
+    flex-grow: 1; /* ให้เนื้อหาหลักขยาย */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* จัดให้อยู่ด้านบน */
+    align-items: center;
+    padding: 20px; /* ลด Padding ถ้าจำเป็น */
+}
+.username{
+  color: #000000;
+}
+
+.logout{
+  background-color: #79B7FF;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.logout:hover{
+    background-color: #636363;
+}
+
+#logouticon{
+  padding-top: 7px;
+  padding-left: 10px;
+}
+  
+  
+
+
+.custom-boxprevious{
+    display: flex;
+    justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+    align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+    margin-left: 200px;
+    gap: 20px;
+  
+  }
+  .btn-previous {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff; /* สีข้อความ */
+    background-color: #000000; /* สีพื้นหลัง */
+    border: none;
+    border-radius: 20px;
+    text-decoration: none; /* ลบขีดเส้นใต้ */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+    width: 120px;
+    height: 45px;
+  }
+  .btn-previous:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000000; /* สีข้อความ */
+    background-color: #ffffff; /* สีพื้นหลัง */
+    border: none;
+    border-radius: 20px;
+    text-decoration: none; /* ลบขีดเส้นใต้ */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+    width: 120px;
+    height: 45px;
+  }
+  .btn-save {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff; /* สีข้อความ */
+    background-color: #006917; /* สีพื้นหลัง */
+    border: none;
+    border-radius: 20px;
+    text-decoration: none; /* ลบขีดเส้นใต้ */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+    width: 120px;
+    height: 45px;
+  }
+  .btn-save:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000000; /* สีข้อความ */
+    background-color: #ffffff; /* สีพื้นหลัง */
+    border: none;
+    border-radius: 20px;
+    text-decoration: none; /* ลบขีดเส้นใต้ */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+    width: 120px;
+    height: 45px;
+  }
+
+
+  /* ส่วนกล่องหลัก */
+.booking-details-container {
+    width: 600px;
+    margin: 20px auto;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 450px;
+  }
+  
+  /* ส่วนหัว */
+  .booking-header,
+  .user-header {
+    width: 100%;
+    background-color: #79B7FF;
+    color: #000;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  /* รายละเอียดการจอง */
+  .booking-details,
+  .user-details {
+    line-height: 1.8;
+    font-size: 16px;
+  }
+  
+  /* จัดสไตล์ Dropdown */
+  select {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  /* เน้นข้อความ */
+  strong {
+    color: #000;
+    font-weight: bold;
+  }
+  
+
+  
+  
+
+/* ปรับขนาดของ Checkbox ให้ใหญ่ขึ้น */
+#edit-time-checkbox {
+    width: 8px; /* ความกว้างของ Checkbox */
+    height: 8px; /* ความสูงของ Checkbox */
+    cursor: pointer; /* เพิ่มไอคอนเมาส์เมื่อชี้ */
+    transform: scale(3); /* ขยายขนาด Checkbox ให้ใหญ่ขึ้น */
+    margin-left: 10px; /* เพิ่มระยะห่างระหว่าง Checkbox กับข้อความ */
+}
+  
+  /* ตกแต่งข้อความให้ดูสมดุล */
+  .edit-time-container label {
+    font-size: 18px; /* ปรับขนาดข้อความ */
+    display: flex;
+    align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+  }
+
+/* ตาราง */
+.booking-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.booking-table th, .booking-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.booking-table th {
+  background-color: #333;
+  color: white;
+  font-size: 13px;
+}
+
+.booking-table td.available {
+  background-color: #4caf50; /* สีเขียว */
+  color: white;
+  cursor: default;
+  transition: background-color 0.3s;
+}
+
+.booking-table td.booked {
+  background-color: #f44336; /* สีแดง */
+  color: white;
+  cursor: default;
+}
+
+/* ปุ่มวันที่ และ ลูกศร */
+  
+.date-picker-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.date-picker-container .btn {
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+}
+
+#currentDate {
+  cursor: pointer;
+  color: #000;
+}
+
+.date-picker-container #currentDate{
+  background-color: #9e9e9e;
+  width: 500px;
+  border: #000;
+}
+
+.date-picker-container #prevDay{
+  background-color: #9e9e9e;
+  border: #000;
+}
+
+.date-picker-container #prevDay:hover{
+  background-color: #000000;
+  border: #000;
+}
+
+.date-picker-container #nextDay{
+  background-color: #9e9e9e;
+  border: #000;
+}
+
+.date-picker-container #nextDay:hover{
+  background-color: #000000;
+  border: #000;
+}
+.containertable {
+  margin-left: 350px;
+  width: 1450px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+.containertable h2{
+  font-size: 30px;
+}
+#prevDay, #nextDay {
+  display: none;
+}

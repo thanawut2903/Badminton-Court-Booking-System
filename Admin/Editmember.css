@@ -1,0 +1,189 @@
+body{
+  font-family: 'Prompt',sans-serif;
+}
+  /* กำหนดสีพื้นหลังและการตกแต่งให้กับกล่องข้อความ */
+  .custom-box {
+    background-color: #79B7FF; /* สีพื้นหลัง */
+    padding: 0px; /* เพิ่มระยะห่างภายในกล่อง */
+    border-radius: 100px; /* มุมโค้ง */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    width: 100%; /* กำหนดความกว้าง */
+    max-width: 600px; /* ความกว้างสูงสุด */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 50px; /* กำหนดความสูงที่ต้องการ */
+    color: #000000;
+    margin-left: 180px;
+  }
+
+  .container {
+    flex-grow: 1; /* ให้เนื้อหาหลักขยาย */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* จัดให้อยู่ด้านบน */
+    align-items: center;
+    padding: 20px; /* ลด Padding ถ้าจำเป็น */
+}
+.logout{
+  background-color: #79B7FF;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.logout:hover{
+    background-color: #636363;
+}
+
+#logouticon{
+  padding-top: 7px;
+  padding-left: 10px;
+}
+.booking-table {
+  width: 1500px;
+  border-collapse: collapse;
+  margin-left: 250px;
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.booking-table thead {
+  background-color: #79B7FF;
+  color: white;
+}
+.booking-table th, .booking-table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.booking-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.booking-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.booking-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+    margin: 50px auto; /* จัดให้อยู่กึ่งกลาง */
+    padding: 20px;
+    justify-content: center; /* จัดกึ่งกลางแนวนอน */
+    align-items: center; /* จัดกึ่งกลางแนวตั้ง (ถ้าจำเป็น) */
+    
+}
+/* ปุ่ม */
+.btn.history {
+    color: #000;
+    background-color: #79B7FF;
+}
+
+.btn.history:hover{
+    color: #ffffff;
+    background-color: #79B7FF;
+}
+
+.btn.delete {
+    color: #000;
+    background-color: #ff1919;
+}
+.btn.delete:hover {
+    color: #ffffff;
+}
+
+/* Toggle Switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #4CAF50;
+}
+
+input:checked + .slider:before {
+    transform: translateX(20px);
+}
+
+
+/* Container หลักที่จัดกึ่งกลาง แถบค้นหา */
+.wrapper {
+    display: flex; /* ใช้ flexbox */
+    justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+    align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+    margin-top: 30px;
+    margin-bottom: -30px;
+    margin-left: 180px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    background-color: #79B7FF; /* พื้นหลังฟ้า */
+    padding: 5px;
+    border-radius: 5px;
+    width: 700px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    justify-content: center; /* จัดเนื้อหาภายในให้ตรงกลาง */
+  }
+
+  .search-label {
+    background-color: #c1c1c1; /* สีเทาด้านซ้าย */
+    padding: 10px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .search-input {
+    flex: 1; /* ช่องกรอกข้อความยืดขยายเต็มที่ */
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none; /* เอาเส้นขอบออกเมื่อคลิก */
+  }
+  
+  .search-icon {
+    background-color: #d1d1d1; /* สีเทาด้านขวา */
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }

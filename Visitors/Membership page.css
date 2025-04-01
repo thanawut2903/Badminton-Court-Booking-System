@@ -1,0 +1,98 @@
+body{
+  font-family: 'Prompt',sans-serif;
+}
+/* กำหนดสีพื้นหลังและสีข้อความของปุ่ม */
+.custom-btn {
+    color: #000000; /* สีข้อความ */
+    background-color: #79B7FF;
+  }
+  
+  .custom-btn:hover {
+    background-color: #9e9e9e; /* สีพื้นหลังเมื่อชี้เมาส์ */
+    color: #000000; /* สีข้อความ */
+  }
+  
+  /* สไตล์ปุ่มผู้ดูแลระบบ */
+  #admin-btn {
+    color: #ffffff; /* สีข้อความ */
+    background-color: #000000;
+  }
+  
+  #admin-btn:hover {
+    background-color: #9e9e9e; /* สีพื้นหลังเมื่อชี้เมาส์ */
+    color: #000000; /* เปลี่ยนสีข้อความ */
+  }
+  
+.container{
+    margin-top: 50px;
+}
+
+.btnsub-custom{
+  background-color: #79B7FF; /* สีพื้นหลัง */
+  color: #000000; /* สีข้อความ */
+  border: none; /* เอาเส้นขอบออก */
+}
+
+.btnsub-custom:hover{
+  background-color: #9e9e9e;
+  color: #000;
+  border: none;
+}
+
+.mb-31 {
+    display: flex;
+    justify-content: center; /* จัดกลางแนวนอน */
+    align-items: center; /* จัดกลางแนวตั้ง หาก container มีความสูง */
+    flex-direction: column; /* ให้เนื้อหาเรียงในแนวตั้ง */
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+    justify-content: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+    height: 35vh; /* สูงเต็มหน้าจอ */
+    align-items: flex-start;
+    margin-left: 5px;
+}
+
+
+.container h3{
+  background-color: #79B7FF;
+  border-radius: 20px;
+  width: 200px;
+  height: 35px;
+  align-items: center;
+  margin-left: 125px;
+  color: #000;
+}
+.custom-boxprevious{
+  display: flex;
+  justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+  align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+  margin-top: 20px;
+}
+.btn-previous{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff; /* สีข้อความ */
+  background-color: #000000; /* สีพื้นหลัง */
+  border: none;
+  border-radius: 20px;
+  text-decoration: none; /* ลบขีดเส้นใต้ */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+  width: 120px;
+  height: 45px;
+  
+}
+
+/* เอฟเฟกต์เมื่อชี้เมาส์ */
+.btn-previous:hover {
+  background-color: #ffffff; /* สีพื้นหลังเมื่อชี้เมาส์ */
+  color: #000000;
+}
+
+
+

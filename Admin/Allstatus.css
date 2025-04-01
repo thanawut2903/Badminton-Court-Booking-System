@@ -1,0 +1,251 @@
+body{
+  font-family: 'Prompt',sans-serif;
+}
+
+/* กำหนดสีพื้นหลังและการตกแต่งให้กับกล่องข้อความ */
+.custom-box {
+  background-color: #79B7FF; /* สีพื้นหลัง */
+  padding: 0px; /* เพิ่มระยะห่างภายในกล่อง */
+  border-radius: 100px; /* มุมโค้ง */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+  width: 100%; /* กำหนดความกว้าง */
+  max-width: 600px; /* ความกว้างสูงสุด */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 50px; /* กำหนดความสูงที่ต้องการ */
+  color: #000000;
+  margin-left: 300px;
+}
+
+.container {
+  flex-grow: 1; /* ให้เนื้อหาหลักขยาย */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* จัดให้อยู่ด้านบน */
+  align-items: center;
+  padding: 20px; /* ลด Padding ถ้าจำเป็น */
+}
+.logout{
+background-color: #79B7FF;
+border-radius: 10px;
+height: 40px;
+width: 40px;
+}
+
+.logout:hover{
+  background-color: #636363;
+}
+
+#logouticon{
+padding-top: 7px;
+padding-left: 10px;
+}
+
+.container1{
+  background-color: #bdbdbd;
+  border-radius: 20px;
+  height: 200px;
+  width: 600px;
+  justify-content: left;
+  text-align: left;
+  margin-left: 340px;
+}
+
+.booking-table {
+  width: 117%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 50px;
+  margin-top: -10px;
+}
+.booking-table thead {
+  background-color: #79B7FF;
+  color: #ffffff;
+}
+
+.booking-table th, .booking-table td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.booking-table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.booking-table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.cancel-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cancel-button:hover {
+  background-color: darkred;
+}
+
+/* ปุ่มยกเลิก */
+.btn-cancel {
+  background-color: #ff3333;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-cancel:hover {
+  background-color: #c71616;
+  color: #000;
+}
+
+/* ตัวกรองสถานะหลัก */
+.filter-container {
+display: flex;
+justify-content: space-around; /* จัดปุ่มให้กระจายห่าง */
+align-items: center;
+background-color: #c7c7c7; /* สีพื้นหลัง */
+padding: 10px;
+border-radius: 50px; /* โค้งมนเหมือนภาพ */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เพิ่มเงา */
+max-width: 1000px;
+margin-top: 30px;
+margin-left: 300px;
+}
+
+.btn {
+  border: none;
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+/* ปุ่มตัวกรองสถานะ */
+.btn1 {
+border: none;
+padding: 8px 20px;
+font-size: 16px;
+border-radius: 20px;
+color: white;
+cursor: pointer;
+font-weight: bold;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+text-decoration: none;
+}
+
+/* สีของแต่ละสถานะ */
+.filter-all {
+  background-color: #79B7FF; /* สีฟ้า */
+  color: black;
+}
+
+.filter-pending {
+  background-color: gray; /* สีส้ม */
+  color: black;
+}
+
+.filter-approved {
+  background-color: gray; /* สีเขียว */
+  color: #000;
+}
+
+.filter-cancelled {
+  background-color: gray; /* สีแดง */
+  color: #000;
+}
+
+
+/* สีของแต่ละสถานะ */
+
+.filter-all:hover{
+  background-color: #79B7FF; /* สีฟ้า */
+  color: black;
+}
+
+
+.filter-pending:hover {
+  background-color: orange; /* สีส้ม */
+  color: black;
+}
+
+.filter-approved:hover {
+  background-color: green; /* สีเขียว */
+  color: #000;
+}
+
+.filter-cancelled:hover {
+  background-color: red; /* สีแดง */
+  color: #000;
+}
+ /* ส่วนกล่องหลัก */
+ .booking-details-container {
+  width: 600px;
+  margin: 20px auto;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ส่วนหัว */
+.booking-header,
+.user-header {
+  width: 100%;
+  background-color: #79B7FF;
+  color: #000;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* รายละเอียดการจอง */
+.booking-details,
+.user-details {
+  line-height: 1.8;
+  font-size: 16px;
+}
+.btn-save {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff; /* สีข้อความ */
+  background-color: #006917; /* สีพื้นหลัง */
+  border: none;
+  border-radius: 20px;
+  text-decoration: none; /* ลบขีดเส้นใต้ */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+  width: 120px;
+  height: 45px;
+  margin-left: 10px;
+}
+.btn-save:hover {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #000000; /* สีข้อความ */
+  background-color: #ffffff; /* สีพื้นหลัง */
+  border: none;
+  border-radius: 20px;
+  text-decoration: none; /* ลบขีดเส้นใต้ */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+  width: 120px;
+  height: 45px;
+}

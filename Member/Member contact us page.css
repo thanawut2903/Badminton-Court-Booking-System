@@ -1,0 +1,197 @@
+body {
+  font-family: 'Prompt', sans-serif;
+}
+
+.mb-31 p{
+    margin-top: 15px;
+}
+
+form{
+    width: 400px;
+    height: 440px;
+    border-radius: 20px;
+}
+form .mb-31{
+    margin-top: 40px;
+}
+.custom-box1 {
+    background-color: #79B7FF;
+    border-radius: 20px;
+    padding-left: 32px;
+    padding-top: 5px;
+    width: 180px;
+    height: 35px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+}
+
+.custom-box1 h3{
+    font-size: 20px;
+    justify-content: left; /* จัดข้อความให้อยู่ตรงกลางแนวนอน */
+    align-items: left; /* จัดข้อความให้อยู่ตรงกลางแนวตั้ง */
+    text-align: left; /* จัดข้อความให้ตรงกลางในกรณีเป็นหลายบรรทัด */
+    color: #000;
+}
+
+.custom-box11{
+  margin-top: 30px;
+  background-color: #79B7FF;
+  border-radius: 20px;
+  height: 60px;
+  padding-top: 0.1px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+  width: 400px;
+  margin-left: 30px;
+}
+
+.custom-box11 p{
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: #000;
+}
+
+.custom-boxfb{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 1px;
+    text-align: left; /* จัดข้อความไปทางซ้าย */
+    margin-top: 20px;
+}
+
+.custom-icon1{
+    width: 80px;
+    height: 80px;
+}
+
+.custom-textfb {
+    font-size: 16px; /* ขนาดข้อความ */
+    color: #000000; /* สีข้อความ */
+    background-color: #79B7FF; /* สีพื้นหลัง */
+    padding: 7px; /* ระยะห่างในกล่อง */
+    border-radius: 20px; /* มุมโค้ง */
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+    margin-top: 20px;
+  }
+
+.custom-boxline{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 15px;
+    text-align: left; /* จัดข้อความไปทางซ้าย */
+    margin-top: 10px;
+}
+
+.custom-icon2{
+    width: 50px;
+    height: 50px;
+}
+
+.custom-textline {
+    font-size: 20px; /* ขนาดข้อความ */
+    color: #000000; /* สีข้อความ */
+    background-color: #79B7FF; /* สีพื้นหลัง */
+    padding: 7px; /* ระยะห่างในกล่อง */
+    border-radius: 20px; /* มุมโค้ง */
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+  }
+
+.custom-boxtel{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 15px;
+    text-align: left; /* จัดข้อความไปทางซ้าย */
+    margin-top: 20px;
+}
+
+.custom-icon3{
+    width: 50px;
+    height: 50px;
+}
+
+.custom-texttel {
+    font-size: 20px; /* ขนาดข้อความ */
+    color: #000000; /* สีข้อความ */
+    background-color: #79B7FF; /* สีพื้นหลัง */
+    padding: 7px; /* ระยะห่างในกล่อง */
+    border-radius: 20px; /* มุมโค้ง */
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+  }
+
+  .custom-boxprevious{
+    display: flex;
+    justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+    align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+    margin-top: -100px;
+  }
+
+.map-container {
+    display: flex;
+    align-items: center; /* จัดตำแหน่งเนื้อหาในแนวตั้ง */
+    justify-content: space-between; /* จัดให้มีระยะห่างระหว่างเนื้อหา */
+    gap: 20px; /* ระยะห่างระหว่างแต่ละบล็อก */
+}
+
+.map-container iframe {
+  flex: 1; /* ปรับขนาดของแผนที่ให้ยืดหยุ่น */
+  max-width: 600px; /* กำหนดความกว้างสูงสุด */
+  height: 545px; /* กำหนดความสูง */
+  border: 1px solid #ff0000; /* ขอบ */
+  border-radius: 10px; /* มุมโค้ง */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เงา */
+}
+
+  .btn-previous {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff; /* สีข้อความ */
+    background-color: #000000; /* สีพื้นหลัง */
+    border: none;
+    border-radius: 20px;
+    text-decoration: none; /* ลบขีดเส้นใต้ */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+    width: 120px;
+    height: 45px;
+  }
+  .btn-previous:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000000; /* สีข้อความ */
+    background-color: #ffffff; /* สีพื้นหลัง */
+    border: none;
+    border-radius: 20px;
+    text-decoration: none; /* ลบขีดเส้นใต้ */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+    width: 120px;
+    height: 45px;
+  }
+  .logout{
+    background-color: #79B7FF;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+  }
+  
+  #logouticon{
+    padding-top: 7px;
+    padding-left: 10px;
+  }
+.container1{
+  margin-top: 0px;
+  margin-left: 250px;
+}

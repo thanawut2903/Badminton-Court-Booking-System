@@ -1,0 +1,90 @@
+body{
+  font-family: 'Prompt',sans-serif;
+}
+/* กำหนดสีพื้นหลังและสีข้อความของปุ่ม */
+.custom-btn {
+  color: #000000; /* สีข้อความ */
+  background-color: #79B7FF;
+}
+
+.custom-btn:hover {
+  background-color: #9e9e9e; /* สีพื้นหลังเมื่อชี้เมาส์ */
+  color: #000000; /* สีข้อความ */
+}
+
+/* สไตล์ปุ่มผู้ดูแลระบบ */
+#admin-btn {
+  color: #ffffff; /* สีข้อความ */
+  background-color: #000000;
+}
+
+#admin-btn:hover {
+  background-color: #9e9e9e; /* สีพื้นหลังเมื่อชี้เมาส์ */
+  color: #000000; /* เปลี่ยนสีข้อความ */
+}
+
+.custom-image1 {
+  max-width: 255px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  margin-top: -50px; /* ลดระยะห่างจากด้านบน */
+
+}
+
+/* ปรับปุ่มล็อคอิน */
+.btnsub-custom {
+  background-color: #79B7FF;
+  color: #000;
+  border: none;
+  padding: 10px 15px; /* ปรับขนาดของปุ่มให้เหมาะสม */
+}
+
+.btnsub-custom:hover {
+  background-color: #808080;
+  color: #000;
+  border: none;
+}
+
+.container form {
+  height: auto; /* แทนที่จะกำหนดค่าคงที่ ให้ใช้ auto เพื่อให้ความสูงพอดีกับเนื้อหา */
+  padding-bottom: 0; /* ลด padding ด้านล่าง */
+}
+
+.card {
+  margin-bottom: 10px; /* ลดระยะห่างด้านล่างของการ์ด */
+  padding: 20px; /* ลด padding ภายในการ์ด */
+}
+
+.login-card {
+  width: 25rem;
+  padding: 2rem;
+  height: 400px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.btnsub-custom {
+  margin-top: 20px;
+  background-color: #79B7FF;
+  color: #fff;
+  font-weight: bold;
+}
+.btnsub-custom:hover {
+  background-color: #3d98ff;
+}
+.text-link {
+  color: #79B7FF;
+  text-decoration: none;
+}
+.text-link:hover {
+  text-decoration: underline;
+}
+#newpass{
+  margin-top: -10px;
+  margin-bottom: -20px;
+}
